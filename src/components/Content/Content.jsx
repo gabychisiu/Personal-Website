@@ -1,5 +1,11 @@
-import "./styles.css"
+import { Counter } from "../Counter/Counter";
+import "./styles.css";
 
 export const Content = () => {
-    return <div className="content">this is content</div>
-}
+  return (
+    <div className="content">
+      <Counter />
+      <Counter />
+    </div>
+  );
+};
