@@ -1,10 +1,12 @@
-import { NavButton } from "./NavButton/NavButton"
-import "./styles.css"
+import { NavButton } from "./NavButton/NavButton";
+import "./styles.css";
 
 export const Navigation = () => {
-    return <div className="header-navigation">
-        <NavButton label="Home" active={true} path="/" />
-        <NavButton label="Articles" path="https://google.com" />
-        <NavButton label="Contact" />
+  return (
+    <div className="header-navigation">
+      <NavButton label="Counter" path="/counter" />
+      <NavButton label="ToDo" path="/todo" />
+      <NavButton label="DigitalClock" path="digital_clock" />
     </div>
-}
+  );
+};
