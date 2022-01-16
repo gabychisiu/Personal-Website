@@ -3,8 +3,32 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  background: var(--background-default);
+}
+
+#root, body, html {
+  width: 100%;
+  height: 100%;
+
 }
 
 .page {
   flex: 1;
+}
+
+:root {
+  --background-default: #141414;
+  --background-paper: #424242;
+
+  --text-primary:#fff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+
+  --primary-main: #004d40;
+  --primary-light:#346d63;
+  --primary-dark: #002f24;
+  --primary-contrastText: #fff;
+  --secondary-main: #00698f;
+  --secondary-light:#3489a6;
+  --secondary-dark: #013f56;
+  --secondary-contrastText: #fff;
 }

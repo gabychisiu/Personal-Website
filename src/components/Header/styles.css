@@ -1,6 +1,6 @@
 .header {
     height: 80px;
-    background: lightgray;
+    background: var(--primary-light);
     display: flex;
     align-items: center;
 }

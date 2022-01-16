@@ -15,4 +15,6 @@ ul{
 
 .skills {
     width: 60%;
+    color: var(--text-primary);
+    background: var(--background-paper);
 }

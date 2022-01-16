@@ -4,19 +4,19 @@
   margin: 5px;
   border: none;
   border-radius: 4px;
-  background: white;
+  background: var(--secondary-main);
   cursor: pointer;
-  color: black;
+  color: var(--secondary-contrastText);
   text-decoration: none;
   text-align: center;
   padding-top: 10px;
 }
 
 .nav-button:hover {
-  background: #f0efef;
+  background: var(--secondary-light);
 }
 
 .nav-button.nav-button--active {
-  background: black;
-  color: white;
+  background: var(--secondary-dark);
+  color: var(--secondary-contrastText);
 }
