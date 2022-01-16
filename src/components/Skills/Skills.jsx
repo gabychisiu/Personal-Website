@@ -5,7 +5,6 @@ import {
   FaCss3Alt,
   FaHtml5,
 } from "react-icons/fa";
-import { LabelValueItem } from "../../utils/LabelValueItem";
 import "./styles.css";
 
 export const Skills = () => {

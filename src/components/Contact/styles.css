@@ -1,6 +1,14 @@
 .contact-form {
-    display: flex;
-   justify-content: left;
-   flex-direction: column;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
 }
 
+.info-contact {
+  display: flex;
+}
+
+.logo-contact {
+    width: 20%;
+    height: 100%;
+}
