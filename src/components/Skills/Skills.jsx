@@ -1,25 +1,51 @@
-import React from "react";
-import "./styles.css"
+import {
+  FaGitSquare,
+  FaReact,
+  FaJsSquare,
+  FaCss3Alt,
+  FaHtml5,
+} from "react-icons/fa";
+import { LabelValueItem } from "../../utils/LabelValueItem";
+import "./styles.css";
 
-export class Skills extends React.Component {
-    state = {
-      nrOfClicks: this.props.initialNrOfClicks || 0,
-    };
-  
-    increaseNrOfClicks = () => {
-      this.setState({
-        nrOfClicks: this.state.nrOfClicks + 1,
-      });
-    };
-  
-    render() {
-      return (
-        <div className="counter">
-          <button onClick={this.increaseNrOfClicks}>
-            {this.props.buttonLabel || "Press Me"}
-          </button>
-          <p>Number of clicks {this.state.nrOfClicks}</p>
-        </div>
-      );
-    }
-  }
+export const Skills = () => {
+  return (
+    <div className="skills">
+      <ul>
+        <li>
+          <FaHtml5 />
+        </li>
+        <li>HTML</li>
+        <li>Advanced</li>
+      </ul>
+      <ul>
+        <li>
+          <FaCss3Alt />
+        </li>
+        <li>CSS</li>
+        <li>Advanced</li>
+      </ul>
+      <ul>
+        <li>
+          <FaJsSquare />
+        </li>
+        <li>JAVASCRIPT</li>
+        <li>Mid</li>
+      </ul>
+      <ul>
+        <li>
+          <FaReact />
+        </li>
+        <li>REACT</li>
+        <li>Mid</li>
+      </ul>
+      <ul>
+        <li>
+          <FaGitSquare />
+        </li>
+        <li>GIT</li>
+        <li>Mid</li>
+      </ul>
+    </div>
+  );
+};

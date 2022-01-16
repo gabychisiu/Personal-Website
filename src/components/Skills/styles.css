@@ -1,0 +1,18 @@
+.skills ul {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.skills ul li {
+    flex: 1;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.skills {
+    width: 60%;
+}

@@ -6,3 +6,9 @@
     display: flex;
    justify-content: center;
 }
+
+.skills-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

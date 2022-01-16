@@ -1,4 +1,4 @@
-export const ContactInfoItem = ({ label, value }) => {
+export const LabelValueItem = ({ label, value }) => {
   return (
     <div>
       <h3>{label}</h3>
