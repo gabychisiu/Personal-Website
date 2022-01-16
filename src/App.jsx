@@ -31,9 +31,28 @@ export const lightTheme = createTheme({
   },
 });
 
+export const darkTheme = createTheme({
+  palette: {
+    type: 'dark',
+    primary: {
+      main: '#004d40',
+      light: '#346d63',
+      dark: '#002f24',
+    },
+    secondary: {
+      main: '#00698f',
+      light: '#3489a6',
+      dark: '#013f56',
+    },
+    background: {
+      default: '#141414',
+    },
+  },
+})
+
 function App() {
   return (
-    <ThemeProvider theme={lightTheme}>
+    <ThemeProvider theme={darkTheme}>
       <Router>
         <div className="App">
           <Header />

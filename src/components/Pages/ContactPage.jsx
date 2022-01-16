@@ -4,9 +4,9 @@ import "./styles.css"
 
 export const ContactPage = ({name, email, address, phone}) => {
   return (
-    <div className="page">
+    <div className="page contact-page">
       <h1 className="contact">Contact</h1>
-      <div className="contact-page">
+      <div className="contact-content">
         <ContactInfo name={name} email={email} address={address} phone={phone}/>
         <ContactForm />
       </div>

@@ -16,6 +16,13 @@
   flex: 1;
 }
 
+h3 {
+  font-weight: 200;
+  font-size: '1.3rem';
+  line-height: 1.16;
+  letter-spacing: '0.03em';
+}
+
 :root {
   --background-default: #141414;
   --background-paper: #424242;
