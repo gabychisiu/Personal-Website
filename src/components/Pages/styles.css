@@ -1,0 +1,8 @@
+.contact-page {
+    display: flex;
+    justify-content: space-around;
+}
+.contact {
+    display: flex;
+   justify-content: center;
+}

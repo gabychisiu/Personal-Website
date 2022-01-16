@@ -1,0 +1,6 @@
+.contact-form {
+    display: flex;
+   justify-content: left;
+   flex-direction: column;
+}
+
