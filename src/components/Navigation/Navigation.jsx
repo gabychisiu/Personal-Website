@@ -9,10 +9,6 @@ export const Navigation = () => {
       <NavButton label="Skills" path="/skills" />
       <NavButton label="Work" path="/work" />
       <NavButton label="Contact" path="/contact" />
-
-      <NavButton label="Counter" path="/counter" />
-      <NavButton label="ToDo" path="/todo" />
-      <NavButton label="DigitalClock" path="digital_clock" />
     </div>
   );
 };

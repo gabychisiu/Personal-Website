@@ -6,10 +6,6 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
-import { CounterPage } from "./components/Pages/CounterPage";
-import { ToDoPage } from "./components/Pages/ToDoPage";
-import { DigitalClockPage } from "./components/Pages/DigitalClockPage";
-
 import { AboutPage } from "./components/Pages/AboutPage";
 import { HomePage } from "./components/Pages/HomePage";
 import { SkillsPage } from "./components/Pages/SkillsPage";
@@ -42,17 +38,7 @@ function App() {
               phone="+40758254399"
             />
           </Route>
-
-          <Route path="/counter">
-            <CounterPage />
-          </Route>
-          <Route path="/todo">
-            <ToDoPage />
-          </Route>
-          <Route path="/digital_clock">
-            <DigitalClockPage />
-          </Route>
-          <Redirect to="/counter" />
+          <Redirect to="/home" />
         </Switch>
       </div>
     </Router>
