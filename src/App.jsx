@@ -6,7 +6,7 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
-import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { AboutPage } from "./components/Pages/AboutPage";
 import { HomePage } from "./components/Pages/HomePage";
 import { SkillsPage } from "./components/Pages/SkillsPage";

@@ -1,0 +1,49 @@
+.about {
+  color: var(--text-primary);
+}
+
+.exp {
+  display: flex;
+  padding-top: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.experience-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-content ul{
+    width: 46%;
+}
+
+.experience-description {
+  margin-left: 10px;
+  border-bottom: 1px solid var(--text-secondary);
+}
+
+.space-below {
+    padding-bottom: 10px;
+}
+
+.experience-year {
+    width: fit-content;
+    padding: 3px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    background: var(--secondary-main);
+  }
+span {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+
+
+.experience-icon {
+  color: var(--primary-main);
+  font-size: 30px;
+}

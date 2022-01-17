@@ -12,7 +12,7 @@ import { FaGithub } from "react-icons/fa";
 export const Work = () => {
   return (
     <Box>
-      <ImageList cols={3} className="image-list">
+      <ImageList cols={2} className="image-list">
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
