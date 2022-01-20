@@ -10,11 +10,11 @@ export const About = () => {
         <ul>
           <li className="exp">
             <div>
-              <FaBriefcase className="experience-icon"/>
+              <FaBriefcase className="experience-icon" />
             </div>
             <div className="experience-description">
               <ExperienceItem
-                yearRange="~2021-Present"
+                yearRange="2021-Present"
                 jobTitle="Manufacturing Engineer"
                 company="- CapPetPlast"
                 info="in this company I make molds on machines with numerical control. This consists in the 

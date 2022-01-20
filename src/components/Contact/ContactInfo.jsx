@@ -1,12 +1,17 @@
-import { FaUserTie, FaMapMarked, FaEnvelope, FaPhoneSquare } from "react-icons/fa";
-import {LabelValueItem} from "../../utils/LabelValueItem"
+import {
+  FaUserTie,
+  FaMapMarked,
+  FaEnvelope,
+  FaPhoneSquare,
+} from "react-icons/fa";
+import { LabelValueItem } from "../../utils/LabelValueItem";
 import "./styles.css";
 
 export const ContactInfo = ({ name, email, address, phone }) => {
   return (
     <div>
       <div className="info-contact">
-        <FaUserTie className="logo-contact"/>
+        <FaUserTie className="logo-contact" />
         <LabelValueItem label="Name" value={name} />
       </div>
       <div className="info-contact">
@@ -14,7 +19,7 @@ export const ContactInfo = ({ name, email, address, phone }) => {
         <LabelValueItem label="Address" value={address} />
       </div>
       <div className="info-contact">
-        <FaEnvelope className="logo-contact"/>
+        <FaEnvelope className="logo-contact" />
         <LabelValueItem label="Email" value={email} />
       </div>
       <div className="info-contact">

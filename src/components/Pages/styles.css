@@ -1,31 +1,32 @@
 .contact-content {
-    display: flex;
-    justify-content: space-around;
-    
+  display: flex;
+  justify-content: space-around;
 }
 .contact {
-    display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-page {
-    background: var(--background-paper);
-    color: var(--text-primary);
+  background: var(--background-paper);
+  color: var(--text-primary);
 }
 
 .skills-page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%;
+  background-image: url("https://www.soutechventures.com/wp-content/uploads/2018/06/Front-End-Developers-soutech-web-consultl.jpg");
 }
 
 .work-page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .page {
-    width: 70%;
-    align-self: center;
+  width: 70%;
+  align-self: center;
 }

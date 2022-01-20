@@ -31,6 +31,8 @@ h3 {
   --text-primary: #fff;
   --text-secondary: rgba(255, 255, 255, 0.7);
 
+  --error-main: #f44336;
+
   --primary-main: #004d40;
   --primary-light: #346d63;
   --primary-dark: #002f24;

@@ -1,6 +1,5 @@
 .contact-form {
   display: flex;
-  justify-content: left;
   flex-direction: column;
   width: 500px;
 }
@@ -10,7 +9,15 @@
 }
 
 .logo-contact {
-    height: 30px;
-    width: 30px;
-    align-self: center;
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+
+#btn-send-message {
+  width: fit-content;
+  align-self: center;
+}
+#error {
+ color: var(--error-main);
 }

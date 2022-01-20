@@ -16,8 +16,8 @@ h1 {
   justify-content: space-between;
 }
 
-.experience-content ul{
-    width: 46%;
+.experience-content ul {
+  width: 46%;
 }
 
 .experience-description {
@@ -26,22 +26,20 @@ h1 {
 }
 
 .space-below {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .experience-year {
-    width: fit-content;
-    padding: 3px;
-    margin-bottom: 7px;
-    border-radius: 3px;
-    background: var(--secondary-main);
-  }
+  width: fit-content;
+  padding: 3px;
+  margin-bottom: 7px;
+  border-radius: 3px;
+  background: var(--secondary-main);
+}
 span {
   font-size: 14px;
   color: var(--text-secondary);
 }
-
-
 
 .experience-icon {
   color: var(--primary-main);
