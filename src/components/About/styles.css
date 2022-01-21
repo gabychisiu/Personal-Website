@@ -1,4 +1,7 @@
 .about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   color: var(--text-primary);
 }
 

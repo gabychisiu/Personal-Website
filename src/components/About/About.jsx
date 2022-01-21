@@ -1,6 +1,9 @@
+import React from "react";
+import { Button } from "@mui/material";
 import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 import { ExperienceItem } from "./ExperienceItem";
 import "./styles.css";
+import CV from "./CV.pdf";
 
 export const About = () => {
   return (
@@ -17,7 +20,7 @@ export const About = () => {
                 yearRange="2021-Present"
                 jobTitle="Manufacturing Engineer"
                 company="- CapPetPlast"
-                info="in this company I make molds on machines with numerical control. This consists in the 
+                info="In this company I make molds on machines with numerical control. This consists in the 
           realization of the manufacturing technology, the realization of the CNC programs, the selection
            of the cutting tools for an optimal process, the adjustment of the CNC machining centers."
               />
@@ -118,6 +121,15 @@ export const About = () => {
           </li>
         </ul>
       </div>
+      <Button
+        component="a"
+        href={CV}
+        download={CV}
+        id="btn-send-message"
+        variant="contained"
+      >
+        Read the full CV
+      </Button>
     </div>
   );
 };
