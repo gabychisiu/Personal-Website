@@ -13,13 +13,21 @@ ul {
   padding: 0;
 }
 
-.skills {
+.skills-list {
   display: flex;
   flex-direction: column;
   width: 60%;
   color: var(--text-primary);
   background: var(--background-paper);
   opacity: 0.7;
+  margin-top: 150px;
+  border-radius: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .size {

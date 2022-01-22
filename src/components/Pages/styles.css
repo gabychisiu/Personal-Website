@@ -13,10 +13,7 @@
 }
 
 .skills-page {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: 100%;
+  
   background-image: url("https://www.soutechventures.com/wp-content/uploads/2018/06/Front-End-Developers-soutech-web-consultl.jpg");
 }
 
