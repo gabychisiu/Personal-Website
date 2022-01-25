@@ -2,6 +2,7 @@ import "./styles.css";
 import atv from "./atv.png";
 import users from "./users.png";
 import mario from "./mario.png";
+import project from "./project.png"
 import * as React from "react";
 import { ImageList, Box } from "@mui/material";
 import ImageListItem from "@mui/material/ImageListItem";
@@ -47,7 +48,7 @@ export const Work = () => {
 
 const itemData = [
   {
-    img: atv,
+    img: project,
     title: "Personal projects",
     link: "https://github.com/gabychisiu/Personal-Website",
   },

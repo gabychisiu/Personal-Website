@@ -1,14 +1,15 @@
+import { Button } from "@mui/material";
 import { NavLink } from "react-router-dom";
 import "./styles.css";
 
 export const NavButton = (props) => {
   return (
-    <NavLink
+    <Button
+      variant="contained"
       className="nav-button"
       activeClassName="nav-button--active"
-      to={props.path}
     >
-      {props.label}
-    </NavLink>
+      <NavLink to={props.path}>{props.label}</NavLink>
+    </Button>
   );
 };
