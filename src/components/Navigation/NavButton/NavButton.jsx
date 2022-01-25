@@ -7,9 +7,11 @@ export const NavButton = (props) => {
     <Button
       variant="contained"
       className="nav-button"
-      activeClassName="nav-button--active"
+      sx={{ padding: 0, margin: 0.5 }}
     >
-      <NavLink to={props.path}>{props.label}</NavLink>
+      <NavLink to={props.path} className="nav-link">
+        {props.label}
+      </NavLink>
     </Button>
   );
 };

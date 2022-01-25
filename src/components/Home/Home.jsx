@@ -21,13 +21,10 @@ export const Home = () => {
         />
       </div>
 
-      <a
-        href="https://youtu.be/mBY62jtbMYM"
-        target="_blank"
-        data-keyframers-credit
-        style={{ color: "black" }}
-      ></a>
-      <script src="https://codepen.io/shshaw/pen/QmZYMG.js"></script>
+      <p>
+        I am a fresh Web Developer <span>&</span> I recently transitioned from writing code for CNC milling machines to writing code that runs in browsers.
+      </p>
+
     </div>
   );
 };

@@ -140,3 +140,14 @@ img {
 body:active * {
   animation: none !important;
 }
+
+#app span {
+  font-size: xx-large;
+  color: var(--secondary-light);
+}
+
+#app p {
+  font-size: large;
+  grid-column: 1 / -1;
+  margin: 3px;
+}

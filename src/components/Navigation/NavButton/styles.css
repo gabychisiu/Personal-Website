@@ -1,22 +1,12 @@
 .nav-button {
   width: 100px;
   height: 30px;
-  margin: 5px;
-  border: none;
-  border-radius: 4px;
   background: var(--secondary-main);
-  cursor: pointer;
-  color: var(--secondary-contrastText);
-  text-decoration: none;
   text-align: center;
-  padding-top: 10px;
 }
 
-.nav-button:hover {
-  background: var(--secondary-light);
-}
-
-.nav-button.nav-button--active {
-  background: var(--secondary-dark);
+.nav-link {
+  text-decoration: none;
   color: var(--secondary-contrastText);
+  width: 100%;
 }

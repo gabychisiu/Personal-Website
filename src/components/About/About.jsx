@@ -20,9 +20,10 @@ export const About = () => {
                 yearRange="2021-Present"
                 jobTitle="Manufacturing Engineer"
                 company="- CapPetPlast"
-                info="In this company I make molds on machines with numerical control. This consists in the 
-          realization of the manufacturing technology, the realization of the CNC programs, the selection
-           of the cutting tools for an optimal process, the adjustment of the CNC machining centers."
+                info="Now I complete the entire product cycle from designing the part, choosing the right tools
+                in order to be as efficient as possible, then making the program and finally producing the 
+                part on the CNC machine. As a final step, I also write a manufacturing technology to 
+                document the entire process."
               />
             </div>
           </li>
@@ -35,9 +36,11 @@ export const About = () => {
                 yearRange="2017-2021"
                 jobTitle="Manufacturing Engineer"
                 company="- Brizard Romania"
-                info="In this company we have developed programs for numerically controlled machines and 
-                manufacturing technology. In addition to these things, I also adjusted these machines. 
-                After the execution of the parts we make measurements on the measuring machine in coordinates."
+                info="I made programs and wrote code to control the CNC milling machines to achieve high performance
+                and speed in order to then produce series of thousands of parts. Then, I would closely observe the program 
+                run and I would make fine adjustments as the mill would slowly run down. After the execution of the 
+                parts I would do precise measurements on the 3D measuring machine. After the part is successfully made I 
+                would document the entire process so as for the programme to be reused easily in the future."
               />
             </div>
           </li>
@@ -50,8 +53,10 @@ export const About = () => {
                 yearRange="2015-2017"
                 jobTitle="Manufacturing Engineer"
                 company="- FSA Romania"
-                info="In this company we have developed programs for numerically controlled machines 
-                and manufacturing technology."
+                info="We have developed programs for numerically controlled machines 
+                and manufacturing technology. The resulting parts were then to be 
+                used in assembly lines for the automotive industry. My job was to 
+                develop programs for small series of parts."
               />
             </div>
           </li>
@@ -66,10 +71,15 @@ export const About = () => {
                 yearRange="2021-2022"
                 jobTitle="Front-End Developer Course"
                 company="- Scoala Informala de IT"
-                info="In this course I learned to make a web application using HTML, CSS and JS. Some 
-                important chapters I have learned are: JS DOM manipulation; JS Function and Scope; Git; OOP 
-                Concepts; AJAX; JS Objects and Classes; Javascript-BOM; React JS; React Router; In this course
-                 I also learned how to make a web application with the React JS library"
+                info="I learned to make a web application using HTML, CSS and JS. We layed 
+                the foundation by understanding JS DOM manipulation and basic JS Functions. 
+                We applied the knowledge by creating a repository and used Git to version all stages of the projects.
+                I gathered OOP knowledge by working on my version of the famous Mario game.
+                I put to practice the AJAX concepts by creating small funny apps like random dog picture generator;
+                I also created a small AJAX app where I exercised cookies and local storage.
+                In the final part of the course we learned React and made a web app using React Router. 
+                As exercise, we wrote the basic to do app in React using hooks like useEffect and useState.
+                The final project was creating this personal website."
               />
             </div>
           </li>
