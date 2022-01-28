@@ -2,7 +2,7 @@ import "./styles.css";
 import atv from "./atv.png";
 import users from "./users.png";
 import mario from "./mario.png";
-import project from "./project.png"
+import project from "./project.png";
 import * as React from "react";
 import { ImageList, Box } from "@mui/material";
 import ImageListItem from "@mui/material/ImageListItem";
@@ -13,7 +13,6 @@ import { FaGithub } from "react-icons/fa";
 export const Work = () => {
   return (
     <div>
-      <h1>My Portfolio</h1>
       <Box>
         <ImageList cols={2} className="image-list">
           {itemData.map((item) => (

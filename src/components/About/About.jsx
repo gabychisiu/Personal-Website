@@ -8,7 +8,7 @@ import CV from "./CV.pdf";
 export const About = () => {
   return (
     <div className="about">
-      <h1>EXPERIENCE & EDUCATION</h1>
+      <h1>Experience & Education</h1>
       <div className="experience-content">
         <ul>
           <li className="exp">
@@ -19,7 +19,7 @@ export const About = () => {
               <ExperienceItem
                 yearRange="2021-Present"
                 jobTitle="Manufacturing Engineer"
-                company="- CapPetPlast"
+                company="- Cap Pet Plast"
                 info="Now I complete the entire product cycle from designing the part, choosing the right tools
                 in order to be as efficient as possible, then making the program and finally producing the 
                 part on the CNC machine. As a final step, I also write a manufacturing technology to 

@@ -12,10 +12,10 @@
   color: var(--text-primary);
 }
 
-.skills-page {
+/* .skills-page {
   
   background-image: url("https://www.soutechventures.com/wp-content/uploads/2018/06/Front-End-Developers-soutech-web-consultl.jpg");
-}
+} */
 
 .work-page {
   display: flex;
@@ -26,4 +26,9 @@
 .page {
   width: 70%;
   align-self: center;
+  background: var(--background-paper);
 }
+
+/* .about-page {
+  background: var(--background-paper);
+} */

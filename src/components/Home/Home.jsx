@@ -22,7 +22,8 @@ export const Home = () => {
       </div>
 
       <p>
-        I am a fresh Web Developer <span>&</span> I recently transitioned from writing code for CNC milling machines to writing code that runs in browsers.
+        I am a fresh Web Developer <span>&</span> I recently transitioned from writing code for CNC 
+        milling machines to writing code that runs in browsers.
       </p>
 
     </div>

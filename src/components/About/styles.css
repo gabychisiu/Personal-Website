@@ -8,6 +8,7 @@
 .exp {
   display: flex;
   padding-top: 30px;
+  margin-left: 10px;
 }
 
 h1 {
@@ -45,6 +46,6 @@ span {
 }
 
 .experience-icon {
-  color: var(--primary-main);
+  /* color: var(--primary-main); */
   font-size: 30px;
 }
