@@ -1,6 +1,7 @@
 .skills ul {
   display: flex;
   justify-content: space-around;
+  font-size: larger;
 }
 
 .skills ul li {
