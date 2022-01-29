@@ -6,6 +6,7 @@ import { useState } from "react";
 export const ContactForm = () => {
   const [formValues, setFormValues] = useState({});
   const [showError, setShowError] = useState(false);
+  const [showMsgSent, setShowMsgSent] = useState(false);
 
   const validateFormValues = () => {
     if (
@@ -16,8 +17,10 @@ export const ContactForm = () => {
     ) {
       console.log("validation passed", formValues);
       setShowError(false);
+      setShowMsgSent(true);
     } else {
       setShowError(true);
+      setShowMsgSent(false);
     }
   };
 
@@ -46,6 +49,7 @@ export const ContactForm = () => {
             return prev;
           })
         }
+        value={formValues.email}
       />
       <TextField
         required
@@ -75,6 +79,9 @@ export const ContactForm = () => {
       />
       <Collapse id="error" in={showError}>
         Fill all the required fields and try again.
+      </Collapse>
+      <Collapse id="msgSent" in={showMsgSent}>
+        Message sent.
       </Collapse>
       <Button
         id="btn-send-message"
