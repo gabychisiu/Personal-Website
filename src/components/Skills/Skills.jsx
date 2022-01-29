@@ -18,6 +18,9 @@ export const Skills = () => {
           </li>
           <li>HTML</li>
           <li>Advanced</li>
+          <div className="progress">
+            <div className="progress-value-a"></div>
+          </div>
         </ul>
         <ul>
           <li>
@@ -25,6 +28,9 @@ export const Skills = () => {
           </li>
           <li>CSS</li>
           <li>Advanced</li>
+          <div className="progress">
+            <div className="progress-value-a"></div>
+          </div>
         </ul>
         <ul>
           <li>
@@ -32,6 +38,9 @@ export const Skills = () => {
           </li>
           <li>JAVASCRIPT</li>
           <li>Mid</li>
+          <div className="progress">
+            <div className="progress-value-m"></div>
+          </div>
         </ul>
         <ul>
           <li>
@@ -39,6 +48,9 @@ export const Skills = () => {
           </li>
           <li>REACT</li>
           <li>Mid</li>
+          <div className="progress">
+            <div className="progress-value-m"></div>
+          </div>
         </ul>
         <ul>
           <li>
@@ -46,6 +58,9 @@ export const Skills = () => {
           </li>
           <li>GIT</li>
           <li>Mid</li>
+          <div className="progress">
+            <div className="progress-value-m"></div>
+          </div>
         </ul>
       </div>
     </div>
