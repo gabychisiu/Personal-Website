@@ -2,11 +2,25 @@ import { Button } from "@mui/material";
 import Collapse from "@mui/material/Collapse";
 import TextField from "@mui/material/TextField";
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
+import { init } from "@emailjs/browser";
 
 export const ContactForm = () => {
   const [formValues, setFormValues] = useState({});
   const [showError, setShowError] = useState(false);
   const [showMsgSent, setShowMsgSent] = useState(false);
+
+  const sendEmail = () => {
+    init("user_iuN4htqntRJTQzuV52qTi");
+    emailjs.send("service_es6wnh6", "template_ryhsq0g", formValues).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+  };
 
   const validateFormValues = () => {
     if (
@@ -18,6 +32,7 @@ export const ContactForm = () => {
       console.log("validation passed", formValues);
       setShowError(false);
       setShowMsgSent(true);
+      sendEmail();
     } else {
       setShowError(true);
       setShowMsgSent(false);
